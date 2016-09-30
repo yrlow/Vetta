@@ -4,9 +4,19 @@
 
 	</head>
 	<body>
-	<p>You have received a message from Vetta Home's site.</p>
-	<p><%= Name: "#{@name}" %></p>
-	<p><%= Email: "#{@email}" %></p>
-	<p><%= Comments: "#{@body}" %></p>
+	
 	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>You have received a message from Vetta Home's site. He/she is the <%= "#{@index}th person."%></p>
+		<p><%= Name: "#{@name}" %></p>
+		<p><%= Email: "#{@email}" %></p>
+		<p><%= Comments: "#{@body}" %></p>
+  </body>
 </html>
