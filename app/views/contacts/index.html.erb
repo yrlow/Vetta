@@ -1,0 +1,9 @@
+<div class="jumbotron">
+	<% @contacts.each do |c| %>
+		<%= c.id %><br>
+		<%= "Name: #{c.name}" %><br>
+		<%= "Email: #{c.email}" %><br>
+		<%= "Comments: #{c.comments}" %><br>
+		<%= "......" %><br>
+	<% end %>
+</div>
